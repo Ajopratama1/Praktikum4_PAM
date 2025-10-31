@@ -64,4 +64,15 @@ fun RegistrationForm() {
             elevation = CardDefaults.cardElevation(defaultElevation = 5.dp),
             colors = CardDefaults.cardColors(containerColor = Color.White)
         ) {
-          }
+            Column(
+                modifier = Modifier.padding(20.dp)
+            ) {
+                // Input Nama Lengkap
+                Text(
+                    text = "NAMA LENGKAP",
+                    fontSize = 15.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Gray,
+                    modifier = Modifier.padding(bottom = 4.dp)
+                )
+              }
