@@ -55,4 +55,13 @@ fun RegistrationForm() {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        }
+        // Card untuk Isi Formulir
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp),
+            shape = RoundedCornerShape(25.dp),
+            elevation = CardDefaults.cardElevation(defaultElevation = 5.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.White)
+        ) {
+          }
