@@ -122,3 +122,10 @@ fun RegistrationForm() {
 
                 Spacer(modifier = Modifier.height(16.dp))
 
+                // Pilihan Status Perkawinan
+                Text(
+                    text = "STATUS PERKAWINAN",
+                    fontSize = 15.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Gray
+                )
