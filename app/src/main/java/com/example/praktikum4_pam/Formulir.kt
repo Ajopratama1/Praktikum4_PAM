@@ -53,4 +53,6 @@ fun RegistrationForm() {
             )
         }
 
-       }
+        Spacer(modifier = Modifier.height(16.dp))
+
+        }
