@@ -92,4 +92,11 @@ fun RegistrationForm() {
 
                 Spacer(modifier = Modifier.height(16.dp))
 
+                // Pilihan Jenis Kelamin
+                Text(
+                    text = "JENIS KELAMIN",
+                    fontSize = 15.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Gray
+                )
                }
