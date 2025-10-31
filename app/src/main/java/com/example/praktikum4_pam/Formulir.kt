@@ -152,4 +152,12 @@ fun RegistrationForm() {
 
                 Spacer(modifier = Modifier.height(16.dp))
 
+                // Input Alamat
+                Text(
+                    text = "ALAMAT",
+                    fontSize = 15.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Gray,
+                    modifier = Modifier.padding(bottom = 4.dp)
+                )
                }
