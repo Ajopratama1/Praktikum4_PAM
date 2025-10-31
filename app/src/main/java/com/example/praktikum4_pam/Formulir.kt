@@ -30,3 +30,10 @@ fun RegistrationForm() {
     val darkPurple = Color(0xFF6750A4)
     val backgroundColor = Color(0xFFF7F2FA)
 
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(backgroundColor)
+            .padding(top = 53.dp)
+    ) {
+       }
